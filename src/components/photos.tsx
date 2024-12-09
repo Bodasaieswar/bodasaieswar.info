@@ -1,28 +1,29 @@
-import { useState } from "react";
-import { useFetchImages } from "../hooks/useFetchImages";
+import { useState } from 'react';
+import { useFetchImages } from '../hooks/useFetchImages';
 
 export default function Photos() {
 	const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
-	const {
-		data: images = [],
-		isLoading,
-		isError,
-		error,
-	} = useFetchImages();
+	const { data: images = [], isLoading, isError, error } = useFetchImages();
 
 	return (
 		<div className="py-8 px-4">
-			<h1 className="text-4xl font-bold text-center mb-6">Photo Gallery</h1>
+			<h1 className="text-4xl font-bold text-center mb-6">
+				Photo Gallery
+			</h1>
 			<p className="text-center text-gray-600 mb-12">
-				Welcome to my photo gallery! Photography has become a new passion of mine, and I'm excited to share some of the moments I've captured. Click on any photo to view it in full resolution and enjoy the stories they tell.
+				Welcome to my photo gallery! Photography has become a new
+				passion of mine, and I'm excited to share some of the moments
+				I've captured. Click on any photo to view it in full resolution
+				and enjoy the stories they tell.
 			</p>
-
 
 			{isLoading && (
 				<div className="flex justify-center items-center h-64">
 					<div className="animate-spin rounded-full h-16 w-16 border-t-4 border-blue-500 border-solid"></div>
-					<p className="text-gray-600 text-lg ml-4">Loading images...</p>
+					<p className="text-gray-600 text-lg ml-4">
+						Loading images...
+					</p>
 				</div>
 			)}
 
@@ -32,7 +33,8 @@ export default function Photos() {
 						Error loading images
 					</p>
 					<p className="text-gray-600">
-						{error?.message || "Something went wrong. Please try again later."}
+						{error?.message ||
+							'Something went wrong. Please try again later.'}
 					</p>
 				</div>
 			)}
@@ -47,24 +49,22 @@ export default function Photos() {
 
 			{!isLoading && !isError && images.length > 0 && (
 				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-					{images.map((image: { url: string; }, index: number) => (
+					{images.map((image: { url: string }, index: number) => (
 						<div
 							key={index}
-							className="cursor-pointer overflow-hidden rounded-lg border border-gray-300 hover:shadow-lg transition-shadow"
+							className="mb-4 flex items-center justify-center"
 							onClick={() => setSelectedImage(image.url)}
 						>
-							<div className="relative">
-								<img
-									src={image.url}
-									alt={`Photo ${index + 1}`}
-									className="w-full h-full rounded-lg object-cover"
-								/>
-							</div>
+							{/* Centered Image */}
+							<img
+								src={image.url}
+								alt={`Photo ${index + 1}`}
+								className="max-w-full max-h-full object-contain rounded-lg transition-transform duration-300 hover:scale-105 cursor-pointer"
+							/>
 						</div>
 					))}
 				</div>
 			)}
-
 
 			{selectedImage && (
 				<div
