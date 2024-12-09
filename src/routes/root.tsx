@@ -1,35 +1,18 @@
 import { Outlet } from 'react-router';
 import Footer from '../components/footer';
+import Navbar from '../components/navbar';
 
 export default function Root() {
 	return (
 		<div>
-			<nav className="flex justify-center mb-8">
-				<a
-					href="#about"
-					rel="noopener noreferrer"
-					className="text-gray-300 hover:text-gray-900 text-2xl font-extrabold italic hover:text-black-600 px-3"
+			<Navbar />
+			<div className="bg-white text-black font-sans leading-relaxed">
+				<div
+					className="max-w-3xl mx-auto p-8"
 				>
-					About me
-				</a>
-				<a
-					href="https://www.linkedin.com/in/bodasaieswar/"
-					target="_blank"
-					rel="noopener noreferrer"
-					className="text-gray-300 hover:text-gray-900 text-2xl font-extrabold italic px-3"
-				>
-					Family
-				</a>
-				<a
-					href="http://bodasaieswar.info/"
-					target="_blank"
-					rel="noopener noreferrer"
-					className="text-gray-300 hover:text-gray-900 text-2xl font-extrabold italic px-3"
-				>
-					Photo
-				</a>
-			</nav>
-			<Outlet />
+					<Outlet />
+				</div>
+			</div>
 			<Footer />
 		</div>
 	);
