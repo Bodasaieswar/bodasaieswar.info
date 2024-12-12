@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useFetchImages } from '../hooks/useFetchImages';
+import Laoding from './loading';
 
 export default function Photos() {
 	const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -18,14 +19,7 @@ export default function Photos() {
 				and enjoy the stories they tell.
 			</p>
 
-			{isLoading && (
-				<div className="flex justify-center items-center h-64">
-					<div className="animate-spin rounded-full h-16 w-16 border-t-4 border-blue-500 border-solid"></div>
-					<p className="text-gray-600 text-lg ml-4">
-						Loading images...
-					</p>
-				</div>
-			)}
+			{isLoading && <Laoding />}
 
 			{isError && (
 				<div className="flex flex-col items-center justify-center h-64 text-center">
