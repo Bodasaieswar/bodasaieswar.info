@@ -416,7 +416,43 @@ const Homepage = () => {
 								<path d="M12 0C5.372 0 0 5.373 0 12c0 5.303 3.438 9.8 8.207 11.385.6.11.793-.26.793-.578 0-.285-.011-1.04-.017-2.04-3.338.726-4.042-1.61-4.042-1.61C4.422 17.07 3.633 16.74 3.633 16.74c-1.087-.744.084-.73.084-.73 1.202.085 1.834 1.234 1.834 1.234 1.07 1.835 2.807 1.305 3.492.998.108-.774.42-1.305.762-1.605-2.665-.304-5.467-1.332-5.467-5.931 0-1.31.47-2.382 1.235-3.222-.124-.303-.535-1.523.116-3.176 0 0 1.007-.323 3.3 1.231.957-.266 1.983-.398 3.003-.403 1.02.005 2.046.137 3.005.403 2.29-1.554 3.297-1.231 3.297-1.231.653 1.653.242 2.873.118 3.176.768.84 1.234 1.912 1.234 3.222 0 4.609-2.806 5.625-5.476 5.922.43.372.814 1.102.814 2.222 0 1.606-.014 2.898-.014 3.293 0 .32.192.694.801.577C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
 							</svg>
 							<h3 className="font-semibold text-xl">
-								BioPython
+								<a
+									href="https://ferraranypizza.com"
+									className="text-gray-500 hover:underline hover:text-gray-800"
+									target="_blank">
+									FerraraNY Pizza
+								</a>
+							</h3>
+						</div>
+						<p className="text-base text-gray-600">
+							Created a full-stack pizza website,{' '}
+							<a
+								href="https://ferraranypizza.com"
+								className="text-blue-600 hover:underline"
+								target="_blank"
+							>
+								FerraraNYPizza.com
+							</a>
+							, enabling users to explore menu options and
+							order authentic New York-style pizzas.
+						</p>
+					</div>
+					<div className="border-l-4  border-gray-500 pl-4">
+						<div className="flex items-center mb-2">
+							<svg
+								className="h-6 w-6 text-black mr-2"
+								fill="currentColor"
+								viewBox="0 0 24 24"
+							>
+								<path d="M12 0C5.372 0 0 5.373 0 12c0 5.303 3.438 9.8 8.207 11.385.6.11.793-.26.793-.578 0-.285-.011-1.04-.017-2.04-3.338.726-4.042-1.61-4.042-1.61C4.422 17.07 3.633 16.74 3.633 16.74c-1.087-.744.084-.73.084-.73 1.202.085 1.834 1.234 1.834 1.234 1.07 1.835 2.807 1.305 3.492.998.108-.774.42-1.305.762-1.605-2.665-.304-5.467-1.332-5.467-5.931 0-1.31.47-2.382 1.235-3.222-.124-.303-.535-1.523.116-3.176 0 0 1.007-.323 3.3 1.231.957-.266 1.983-.398 3.003-.403 1.02.005 2.046.137 3.005.403 2.29-1.554 3.297-1.231 3.297-1.231.653 1.653.242 2.873.118 3.176.768.84 1.234 1.912 1.234 3.222 0 4.609-2.806 5.625-5.476 5.922.43.372.814 1.102.814 2.222 0 1.606-.014 2.898-.014 3.293 0 .32.192.694.801.577C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+							</svg>
+							<h3 className="font-semibold text-xl">
+								<a
+									href="https://biopython.org/"
+									className="text-gray-500 hover:underline hover:text-gray-800"
+									target="_blank">
+									BioPython
+								</a>
 							</h3>
 						</div>
 						<p className="text-base text-gray-600">
@@ -439,7 +475,12 @@ const Homepage = () => {
 								<path d="M12 0C5.372 0 0 5.373 0 12c0 5.303 3.438 9.8 8.207 11.385.6.11.793-.26.793-.578 0-.285-.011-1.04-.017-2.04-3.338.726-4.042-1.61-4.042-1.61C4.422 17.07 3.633 16.74 3.633 16.74c-1.087-.744.084-.73.084-.73 1.202.085 1.834 1.234 1.834 1.234 1.07 1.835 2.807 1.305 3.492.998.108-.774.42-1.305.762-1.605-2.665-.304-5.467-1.332-5.467-5.931 0-1.31.47-2.382 1.235-3.222-.124-.303-.535-1.523.116-3.176 0 0 1.007-.323 3.3 1.231.957-.266 1.983-.398 3.003-.403 1.02.005 2.046.137 3.005.403 2.29-1.554 3.297-1.231 3.297-1.231.653 1.653.242 2.873.118 3.176.768.84 1.234 1.912 1.234 3.222 0 4.609-2.806 5.625-5.476 5.922.43.372.814 1.102.814 2.222 0 1.606-.014 2.898-.014 3.293 0 .32.192.694.801.577C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
 							</svg>
 							<h3 className="font-semibold text-xl">
-								Emoji and Academic Language
+								<a
+									href="https://github.com/Bodasaieswar/IT7071/blob/main/SaiEswar_Boda_Expert_Interview.pdf"
+									className="text-gray-500 hover:underline hover:text-gray-800"
+									target="_blank">
+									Emoji and Academic Language
+								</a>
 							</h3>
 						</div>
 						<p className="text-base text-gray-600">
@@ -449,6 +490,111 @@ const Homepage = () => {
 							statistical analyses.
 						</p>
 					</div>
+
+					<div className="border-l-4 border-blue-500 pl-4 mb-6">
+						<div className="flex items-center mb-2">
+							<svg
+								className="h-6 w-6 text-blue-500 mr-2"
+								fill="currentColor"
+								viewBox="0 0 24 24"
+							>
+								<path d="M12 0C5.372 0 0 5.373 0 12c0 5.303 3.438 9.8 8.207 11.385.6.11.793-.26.793-.578 0-.285-.011-1.04-.017-2.04-3.338.726-4.042-1.61-4.042-1.61C4.422 17.07 3.633 16.74 3.633 16.74c-1.087-.744.084-.73.084-.73 1.202.085 1.834 1.234 1.834 1.234 1.07 1.835 2.807 1.305 3.492.998.108-.774.42-1.305.762-1.605-2.665-.304-5.467-1.332-5.467-5.931 0-1.31.47-2.382 1.235-3.222-.124-.303-.535-1.523.116-3.176 0 0 1.007-.323 3.3 1.231.957-.266 1.983-.398 3.003-.403 1.02.005 2.046.137 3.005.403 2.29-1.554 3.297-1.231 3.297-1.231.653 1.653.242 2.873.118 3.176.768.84 1.234 1.912 1.234 3.222 0 4.609-2.806 5.625-5.476 5.922.43.372.814 1.102.814 2.222 0 1.606-.014 2.898-.014 3.293 0 .32.192.694.801.577C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+							</svg>
+							<h3 className="font-semibold text-xl">
+								<a
+									href="https://github.com/Bodasaieswar/IT7071/blob/main/2023.03_BodaRecommendationLetter.pdf"
+									className="text-blue-500 hover:underline hover:text-blue-800"
+									target="_blank"
+								>
+									Recommendation Letter
+								</a>
+							</h3>
+						</div>
+						<p className="text-base text-blue-600">
+							Received a glowing recommendation from the Faculty Enrichment Center at the
+							<span className="font-bold text-blue-800">University of Cincinnati</span>, recognizing
+							contributions to improving data reporting processes and exceptional customer service.
+						</p>
+					</div>
+
+					<div className="border-l-4 border-green-500 pl-4 mb-6">
+						<div className="flex items-center mb-2">
+							<svg
+								className="h-6 w-6 text-green-500 mr-2"
+								fill="currentColor"
+								viewBox="0 0 24 24"
+							>
+								<path d="M12 0C5.372 0 0 5.373 0 12c0 5.303 3.438 9.8 8.207 11.385.6.11.793-.26.793-.578 0-.285-.011-1.04-.017-2.04-3.338.726-4.042-1.61-4.042-1.61C4.422 17.07 3.633 16.74 3.633 16.74c-1.087-.744.084-.73.084-.73 1.202.085 1.834 1.234 1.834 1.234 1.07 1.835 2.807 1.305 3.492.998.108-.774.42-1.305.762-1.605-2.665-.304-5.467-1.332-5.467-5.931 0-1.31.47-2.382 1.235-3.222-.124-.303-.535-1.523.116-3.176 0 0 1.007-.323 3.3 1.231.957-.266 1.983-.398 3.003-.403 1.02.005 2.046.137 3.005.403 2.29-1.554 3.297-1.231 3.297-1.231.653 1.653.242 2.873.118 3.176.768.84 1.234 1.912 1.234 3.222 0 4.609-2.806 5.625-5.476 5.922.43.372.814 1.102.814 2.222 0 1.606-.014 2.898-.014 3.293 0 .32.192.694.801.577C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+							</svg>
+							<h3 className="font-semibold text-xl">
+								<a
+									href="https://github.com/Bodasaieswar/IT7071/blob/main/Impact_Award1.pdf"
+									className="text-green-500 hover:underline hover:text-green-800"
+									target="_blank"
+								>
+									Go Above and Beyond Award - Training Excellence
+								</a>
+							</h3>
+						</div>
+						<p className="text-base text-green-600">
+							Recognized for exceptional contributions in training new associates on
+							WGS and Anthem applications, enhancing team performance and efficiency.
+						</p>
+					</div>
+
+					<div className="border-l-4 border-green-500 pl-4 mb-6">
+						<div className="flex items-center mb-2">
+							<svg
+								className="h-6 w-6 text-green-500 mr-2"
+								fill="currentColor"
+								viewBox="0 0 24 24"
+							>
+								<path d="M12 0C5.372 0 0 5.373 0 12c0 5.303 3.438 9.8 8.207 11.385.6.11.793-.26.793-.578 0-.285-.011-1.04-.017-2.04-3.338.726-4.042-1.61-4.042-1.61C4.422 17.07 3.633 16.74 3.633 16.74c-1.087-.744.084-.73.084-.73 1.202.085 1.834 1.234 1.834 1.234 1.07 1.835 2.807 1.305 3.492.998.108-.774.42-1.305.762-1.605-2.665-.304-5.467-1.332-5.467-5.931 0-1.31.47-2.382 1.235-3.222-.124-.303-.535-1.523.116-3.176 0 0 1.007-.323 3.3 1.231.957-.266 1.983-.398 3.003-.403 1.02.005 2.046.137 3.005.403 2.29-1.554 3.297-1.231 3.297-1.231.653 1.653.242 2.873.118 3.176.768.84 1.234 1.912 1.234 3.222 0 4.609-2.806 5.625-5.476 5.922.43.372.814 1.102.814 2.222 0 1.606-.014 2.898-.014 3.293 0 .32.192.694.801.577C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+							</svg>
+							<h3 className="font-semibold text-xl">
+								<a
+									href="https://github.com/Bodasaieswar/IT7071/blob/main/Impact_Award2.pdf"
+									className="text-green-500 hover:underline hover:text-green-800"
+									target="_blank"
+								>
+									Go Above and Beyond Award - Claims Optimization
+								</a>
+							</h3>
+						</div>
+						<p className="text-base text-green-600">
+							Delivered $2M in savings by leveraging Power BI to create efficient data
+							scenarios, improving claims AA rate through innovative solutions.
+						</p>
+					</div>
+					<div className="border-l-4 border-gray-500 pl-4">
+						<div className="flex items-center mb-2">
+							<svg
+								className="h-6 w-6 text-black mr-2"
+								fill="currentColor"
+								viewBox="0 0 24 24"
+							>
+								<path d="M12 0C5.372 0 0 5.373 0 12c0 5.303 3.438 9.8 8.207 11.385.6.11.793-.26.793-.578 0-.285-.011-1.04-.017-2.04-3.338.726-4.042-1.61-4.042-1.61C4.422 17.07 3.633 16.74 3.633 16.74c-1.087-.744.084-.73.084-.73 1.202.085 1.834 1.234 1.834 1.234 1.07 1.835 2.807 1.305 3.492.998.108-.774.42-1.305.762-1.605-2.665-.304-5.467-1.332-5.467-5.931 0-1.31.47-2.382 1.235-3.222-.124-.303-.535-1.523.116-3.176 0 0 1.007-.323 3.3 1.231.957-.266 1.983-.398 3.003-.403 1.02.005 2.046.137 3.005.403 2.29-1.554 3.297-1.231 3.297-1.231.653 1.653.242 2.873.118 3.176.768.84 1.234 1.912 1.234 3.222 0 4.609-2.806 5.625-5.476 5.922.43.372.814 1.102.814 2.222 0 1.606-.014 2.898-.014 3.293 0 .32.192.694.801.577C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+							</svg>
+							<h3 className="font-semibold text-xl">
+								<a
+									href="https://github.com/Bodasaieswar/IT7071/blob/main/Module_5_Assignment.pdf"
+									className="text-gray-500 hover:underline hover:text-gray-900"
+									target="_Blank"
+								>
+									Twitter Sentiment Analysis
+								</a>
+							</h3>
+						</div>
+						<p className="text-base text-gray-600">
+							Designed and implemented a sentiment analysis tool for{' '}
+							<span className="font-bold text-gray-800">Twitter</span> to analyze
+							public opinions and emotions based on real-time tweets. Utilized natural
+							language processing techniques to classify sentiments, providing
+							actionable insights through comprehensive reports.
+						</p>
+					</div>
+
+
 					<div className="border-l-4  border-gray-500 pl-4">
 						<div className="flex items-center mb-2">
 							<svg
@@ -459,7 +605,12 @@ const Homepage = () => {
 								<path d="M12 0C5.372 0 0 5.373 0 12c0 5.303 3.438 9.8 8.207 11.385.6.11.793-.26.793-.578 0-.285-.011-1.04-.017-2.04-3.338.726-4.042-1.61-4.042-1.61C4.422 17.07 3.633 16.74 3.633 16.74c-1.087-.744.084-.73.084-.73 1.202.085 1.834 1.234 1.834 1.234 1.07 1.835 2.807 1.305 3.492.998.108-.774.42-1.305.762-1.605-2.665-.304-5.467-1.332-5.467-5.931 0-1.31.47-2.382 1.235-3.222-.124-.303-.535-1.523.116-3.176 0 0 1.007-.323 3.3 1.231.957-.266 1.983-.398 3.003-.403 1.02.005 2.046.137 3.005.403 2.29-1.554 3.297-1.231 3.297-1.231.653 1.653.242 2.873.118 3.176.768.84 1.234 1.912 1.234 3.222 0 4.609-2.806 5.625-5.476 5.922.43.372.814 1.102.814 2.222 0 1.606-.014 2.898-.014 3.293 0 .32.192.694.801.577C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
 							</svg>
 							<h3 className="font-semibold text-xl">
+								<a
+									href="https://github.com/Bodasaieswar/IT7071/blob/main/MajorProject.pdf"
+									className="text-gray-500 hover:underline hover:text-gray-900"
+									target="_Blank">
 								Fatal Police Encounters Analysis
+								</a>
 							</h3>
 						</div>
 						<p className="text-base text-gray-600">
@@ -490,7 +641,12 @@ const Homepage = () => {
 								<path d="M12 0C5.372 0 0 5.373 0 12c0 5.303 3.438 9.8 8.207 11.385.6.11.793-.26.793-.578 0-.285-.011-1.04-.017-2.04-3.338.726-4.042-1.61-4.042-1.61C4.422 17.07 3.633 16.74 3.633 16.74c-1.087-.744.084-.73.084-.73 1.202.085 1.834 1.234 1.834 1.234 1.07 1.835 2.807 1.305 3.492.998.108-.774.42-1.305.762-1.605-2.665-.304-5.467-1.332-5.467-5.931 0-1.31.47-2.382 1.235-3.222-.124-.303-.535-1.523.116-3.176 0 0 1.007-.323 3.3 1.231.957-.266 1.983-.398 3.003-.403 1.02.005 2.046.137 3.005.403 2.29-1.554 3.297-1.231 3.297-1.231.653 1.653.242 2.873.118 3.176.768.84 1.234 1.912 1.234 3.222 0 4.609-2.806 5.625-5.476 5.922.43.372.814 1.102.814 2.222 0 1.606-.014 2.898-.014 3.293 0 .32.192.694.801.577C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
 							</svg>
 							<h3 className="font-semibold text-xl">
+								<a
+									href="https://github.com/Bodasaieswar/IT7071/blob/main/Anomaly_detection.pdf"
+									className="text-gray-500 hover:underline hover:text-gray-900"
+									target="_Blank">
 								Anomaly Detection System
+								</a>
 							</h3>
 						</div>
 						<p className="text-base text-gray-600">
@@ -513,33 +669,12 @@ const Homepage = () => {
 								<path d="M12 0C5.372 0 0 5.373 0 12c0 5.303 3.438 9.8 8.207 11.385.6.11.793-.26.793-.578 0-.285-.011-1.04-.017-2.04-3.338.726-4.042-1.61-4.042-1.61C4.422 17.07 3.633 16.74 3.633 16.74c-1.087-.744.084-.73.084-.73 1.202.085 1.834 1.234 1.834 1.234 1.07 1.835 2.807 1.305 3.492.998.108-.774.42-1.305.762-1.605-2.665-.304-5.467-1.332-5.467-5.931 0-1.31.47-2.382 1.235-3.222-.124-.303-.535-1.523.116-3.176 0 0 1.007-.323 3.3 1.231.957-.266 1.983-.398 3.003-.403 1.02.005 2.046.137 3.005.403 2.29-1.554 3.297-1.231 3.297-1.231.653 1.653.242 2.873.118 3.176.768.84 1.234 1.912 1.234 3.222 0 4.609-2.806 5.625-5.476 5.922.43.372.814 1.102.814 2.222 0 1.606-.014 2.898-.014 3.293 0 .32.192.694.801.577C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
 							</svg>
 							<h3 className="font-semibold text-xl">
-								FerraraNY Pizza
-							</h3>
-						</div>
-						<p className="text-base text-gray-600">
-							Created a full-stack pizza website,{' '}
-							<a
-								href="https://ferraranypizza.com"
-								className="text-blue-600 hover:underline"
-								target="_blank"
-							>
-								FerraraNYPizza.com
-							</a>
-							, enabling users to explore menu options and
-							order authentic New York-style pizzas.
-						</p>
-					</div>
-					<div className="border-l-4  border-gray-500 pl-4">
-						<div className="flex items-center mb-2">
-							<svg
-								className="h-6 w-6 text-black mr-2"
-								fill="currentColor"
-								viewBox="0 0 24 24"
-							>
-								<path d="M12 0C5.372 0 0 5.373 0 12c0 5.303 3.438 9.8 8.207 11.385.6.11.793-.26.793-.578 0-.285-.011-1.04-.017-2.04-3.338.726-4.042-1.61-4.042-1.61C4.422 17.07 3.633 16.74 3.633 16.74c-1.087-.744.084-.73.084-.73 1.202.085 1.834 1.234 1.834 1.234 1.07 1.835 2.807 1.305 3.492.998.108-.774.42-1.305.762-1.605-2.665-.304-5.467-1.332-5.467-5.931 0-1.31.47-2.382 1.235-3.222-.124-.303-.535-1.523.116-3.176 0 0 1.007-.323 3.3 1.231.957-.266 1.983-.398 3.003-.403 1.02.005 2.046.137 3.005.403 2.29-1.554 3.297-1.231 3.297-1.231.653 1.653.242 2.873.118 3.176.768.84 1.234 1.912 1.234 3.222 0 4.609-2.806 5.625-5.476 5.922.43.372.814 1.102.814 2.222 0 1.606-.014 2.898-.014 3.293 0 .32.192.694.801.577C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
-							</svg>
-							<h3 className="font-semibold text-xl">
+								<a
+									href="https://github.com/Bodasaieswar/IT7071/blob/main/web_DataScrape.pdf"
+									className="text-gray-500 hover:underline hover:text-gray-900"
+									target="_Blank">
 								Web Data Scraper
+								</a>
 							</h3>
 						</div>
 						<p className="text-base text-gray-600">
