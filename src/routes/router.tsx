@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { createBrowserRouter } from 'react-router';
+import { createBrowserRouter } from 'react-router-dom';
 import Loading from '../components/loading';
 import Root from './root';
 
