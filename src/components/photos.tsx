@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useFetchImages } from '../hooks/useFetchImages';
+// Loading indicator component
 import Loading from './loading';
 
 export default function Photos() {
